@@ -13,5 +13,9 @@ for(x,y,w,h) in bottle:
 
 cv2.imshow('image',img)
 
+
+
+
 cv2.waitKey()
+
 
