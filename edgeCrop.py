@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread("bottle.jpg")
+img = cv2.imread("glass9.jpg")
 cv2.imshow("orig", img)
 img = cv2.blur(img,(2,2))
 canny = cv2.Canny(img, 0, 50)
